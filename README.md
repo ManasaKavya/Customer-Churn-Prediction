@@ -2,7 +2,7 @@
 
 A comprehensive machine learning-powered platform to identify and predict customer churn using advanced analytics, multiple classification models, and interactive visualizations.
 
-## 🎯 Overview
+##  Overview
 
 This project implements a complete end-to-end churn prediction system with:
 
@@ -13,7 +13,7 @@ This project implements a complete end-to-end churn prediction system with:
 - **Interactive dashboard** with real-time predictions and deep analytics
 - **Modern web interface** built with Next.js 15, React 19, and Tailwind CSS
 
-## 📊 Model Performance
+##  Model Performance
 
 ### Logistic Regression
 - **Accuracy**: 80.25%
@@ -31,7 +31,7 @@ This project implements a complete end-to-end churn prediction system with:
 
 The Random Forest model demonstrates superior recall for identifying at-risk customers, making it better suited for churn prediction in production.
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Backend Stack
 - **Python 3.13** with scikit-learn, pandas, numpy, joblib
@@ -54,7 +54,7 @@ The Random Forest model demonstrates superior recall for identifying at-risk cus
 5. **Prediction Interface**: Form-based churn probability calculator
 6. **Deep Analysis**: Detailed insights and recommendations
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 /vercel/share/v0-project/
@@ -103,7 +103,7 @@ The Random Forest model demonstrates superior recall for identifying at-risk cus
 └── README.md
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Installation
 
@@ -175,19 +175,6 @@ The synthetic dataset includes 11 customer features:
 4. **Balance** - 6.8% feature importance
 5. **CreditScore** - 6.4% feature importance
 
-## 🎨 Design System
-
-### Color Palette
-- **Primary**: Deep Blue (oklch(0.5 0.12 264))
-- **Accent**: Light Purple (oklch(0.6 0.15 264))
-- **Background**: Light Gray (oklch(0.98 0 0))
-- **Card**: White (oklch(1 0 0))
-- **Text**: Dark Gray (oklch(0.15 0 0))
-
-### Typography
-- **Headings**: Geist Sans (Bold, 500-700 weight)
-- **Body**: Geist Sans (Regular, 400 weight)
-- **Mono**: Geist Mono (Code snippets)
 
 ## 📡 API Endpoints
 
@@ -245,7 +232,7 @@ Accepts customer profile and returns:
 }
 ```
 
-## 🎯 Recommendations
+##  Recommendations
 
 ### Customer Retention Strategies
 
@@ -298,18 +285,6 @@ Customize colors in `tailwind.config.ts` by modifying design tokens in `globals.
 - Model metrics: < 150ms (cached)
 - Predictions: < 500ms (real-time)
 
-## 🚢 Deployment
-
-### Deploy to Vercel
-```bash
-# Push to GitHub
-git add .
-git commit -m "Initial commit"
-git push origin main
-
-# Deploy via Vercel CLI
-vercel deploy
-```
 
 ### Environment Setup
 1. Install Python 3.10+ on production server
@@ -354,7 +329,7 @@ pnpm test
 
 This project is open source and available for educational and commercial use.
 
-## 📞 Support
+##  Support
 
 For questions or issues:
 1. Check the dashboard documentation
@@ -364,4 +339,4 @@ For questions or issues:
 
 ---
 
-**Built with ❤️ using Next.js, Python ML, and modern web technologies**
+**Built using Next.js, Python ML, and modern web technologies**
