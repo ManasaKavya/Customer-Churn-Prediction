@@ -1,0 +1,322 @@
+{
+  "churn_distribution": {
+    "retained": 8000,
+    "churned": 2000,
+    "churn_rate": 0.2
+  },
+  "age_analysis": [
+    {
+      "range": "18-25",
+      "count": 1056,
+      "churned": 221,
+      "churn_rate": 0.20928030303030304
+    },
+    {
+      "range": "25-32",
+      "count": 1084,
+      "churned": 215,
+      "churn_rate": 0.19833948339483395
+    },
+    {
+      "range": "32-39",
+      "count": 1137,
+      "churned": 225,
+      "churn_rate": 0.19788918205804748
+    },
+    {
+      "range": "39-46",
+      "count": 1150,
+      "churned": 218,
+      "churn_rate": 0.18956521739130436
+    },
+    {
+      "range": "46-53",
+      "count": 1098,
+      "churned": 224,
+      "churn_rate": 0.2040072859744991
+    },
+    {
+      "range": "53-60",
+      "count": 1069,
+      "churned": 212,
+      "churn_rate": 0.19831618334892423
+    },
+    {
+      "range": "60-67",
+      "count": 1132,
+      "churned": 226,
+      "churn_rate": 0.19964664310954064
+    },
+    {
+      "range": "67-74",
+      "count": 1117,
+      "churned": 231,
+      "churn_rate": 0.20680393912264997
+    },
+    {
+      "range": "74-81",
+      "count": 1157,
+      "churned": 228,
+      "churn_rate": 0.19706136560069146
+    }
+  ],
+  "tenure_analysis": [
+    {
+      "range": "0-9",
+      "count": 1095,
+      "churned": 112,
+      "churn_rate": 0.10228310502283106
+    },
+    {
+      "range": "9-18",
+      "count": 1227,
+      "churned": 227,
+      "churn_rate": 0.1850040749796251
+    },
+    {
+      "range": "18-27",
+      "count": 1261,
+      "churned": 249,
+      "churn_rate": 0.19746233148295003
+    },
+    {
+      "range": "27-36",
+      "count": 1203,
+      "churned": 242,
+      "churn_rate": 0.20116375727348296
+    },
+    {
+      "range": "36-45",
+      "count": 1192,
+      "churned": 254,
+      "churn_rate": 0.21308724832214765
+    },
+    {
+      "range": "45-54",
+      "count": 1295,
+      "churned": 245,
+      "churn_rate": 0.1891891891891892
+    },
+    {
+      "range": "54-63",
+      "count": 1183,
+      "churned": 227,
+      "churn_rate": 0.19188503803888418
+    },
+    {
+      "range": "63-72",
+      "count": 1239,
+      "churned": 244,
+      "churn_rate": 0.19693301049233253
+    }
+  ],
+  "balance_analysis": [
+    {
+      "range": "$0k-$50k",
+      "count": 6197,
+      "churned": 1220,
+      "churn_rate": 0.19686945296111022
+    },
+    {
+      "range": "$50k-$100k",
+      "count": 2462,
+      "churned": 510,
+      "churn_rate": 0.20714865962632006
+    },
+    {
+      "range": "$100k-$150k",
+      "count": 857,
+      "churned": 187,
+      "churn_rate": 0.21820303383897316
+    },
+    {
+      "range": "$150k-$200k",
+      "count": 314,
+      "churned": 56,
+      "churn_rate": 0.17834394904458598
+    },
+    {
+      "range": "$200k-$250k",
+      "count": 108,
+      "churned": 11,
+      "churn_rate": 0.10185185185185185
+    }
+  ],
+  "monthly_charges_analysis": [
+    {
+      "range": "$0-$400",
+      "count": 3688,
+      "churned": 578,
+      "churn_rate": 0.15672451193058567
+    },
+    {
+      "range": "$400-$800",
+      "count": 3544,
+      "churned": 669,
+      "churn_rate": 0.18876975169300225
+    },
+    {
+      "range": "$800-$1200",
+      "count": 1647,
+      "churned": 379,
+      "churn_rate": 0.23011536126290225
+    },
+    {
+      "range": "$1200-$1600",
+      "count": 698,
+      "churned": 209,
+      "churn_rate": 0.2994269340974212
+    },
+    {
+      "range": "$1600-$2000",
+      "count": 264,
+      "churned": 104,
+      "churn_rate": 0.3939393939393939
+    }
+  ],
+  "country_analysis": [
+    {
+      "country": "France",
+      "count": 5012,
+      "churned": 996,
+      "churn_rate": 0.19872306464485234
+    },
+    {
+      "country": "Spain",
+      "count": 1946,
+      "churned": 405,
+      "churn_rate": 0.20811921891058582
+    },
+    {
+      "country": "Germany",
+      "count": 3042,
+      "churned": 599,
+      "churn_rate": 0.19690992767915844
+    }
+  ],
+  "gender_analysis": [
+    {
+      "gender": "Male",
+      "count": 5430,
+      "churned": 1088,
+      "churn_rate": 0.2003683241252302
+    },
+    {
+      "gender": "Female",
+      "count": 4570,
+      "churned": 912,
+      "churn_rate": 0.19956236323851204
+    }
+  ],
+  "customer_type_analysis": [
+    {
+      "type": "Regular",
+      "count": 7054,
+      "churned": 1426,
+      "churn_rate": 0.20215480578395237
+    },
+    {
+      "type": "Premium",
+      "count": 2946,
+      "churned": 574,
+      "churn_rate": 0.19484046164290564
+    }
+  ],
+  "credit_card_analysis": [
+    {
+      "has_credit_card": false,
+      "count": 2997,
+      "churned": 587,
+      "churn_rate": 0.19586252919586253
+    },
+    {
+      "has_credit_card": true,
+      "count": 7003,
+      "churned": 1413,
+      "churn_rate": 0.20177066971298016
+    }
+  ],
+  "active_member_analysis": [
+    {
+      "is_active": false,
+      "count": 2994,
+      "churned": 1419,
+      "churn_rate": 0.47394789579158314
+    },
+    {
+      "is_active": true,
+      "count": 7006,
+      "churned": 581,
+      "churn_rate": 0.08292891807022552
+    }
+  ],
+  "churn_correlations": {
+    "Age": -0.000973145593607531,
+    "Tenure": 0.08232725122153371,
+    "CreditScore": 0.011091075508975406,
+    "Balance": -0.00582822084313992,
+    "MonthlyCharges": 0.14494690108290986
+  },
+  "feature_statistics": {
+    "Age": {
+      "mean": 49.3044,
+      "median": 49.0,
+      "std": 18.189349242966014,
+      "min": 18.0,
+      "max": 80.0,
+      "q25": 34.0,
+      "q75": 65.0
+    },
+    "Tenure": {
+      "mean": 36.8417,
+      "median": 37.0,
+      "std": 21.204853352253327,
+      "min": -5.0,
+      "max": 72.0,
+      "q25": 19.0,
+      "q75": 55.0
+    },
+    "CreditScore": {
+      "mean": 576.9915,
+      "median": 578.0,
+      "std": 159.23508096161123,
+      "min": 300.0,
+      "max": 850.0,
+      "q25": 438.0,
+      "q75": 715.0
+    },
+    "Balance": {
+      "mean": 50.05856879360684,
+      "median": 35.391611257508806,
+      "std": 47.90412159324867,
+      "min": 0.0010259085695605663,
+      "max": 250.0,
+      "q25": 14.935175710388918,
+      "q75": 70.16249333998158
+    },
+    "MonthlyCharges": {
+      "mean": 627.1566318918232,
+      "median": 522.5280106394725,
+      "std": 444.0273749789743,
+      "min": 50.0,
+      "max": 2854.9121877764373,
+      "q25": 298.6880577582557,
+      "q75": 842.8199893453519
+    }
+  },
+  "missing_values": {
+    "CustomerID": 0,
+    "Age": 0,
+    "Tenure": 0,
+    "CreditScore": 0,
+    "Balance": 0,
+    "MonthlyCharges": 0,
+    "NumProducts": 0,
+    "HasCreditCard": 0,
+    "IsActiveMember": 0,
+    "Country": 0,
+    "Gender": 0,
+    "CustomerType": 0,
+    "Churn": 0
+  }
+}

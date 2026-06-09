@@ -1,0 +1,55 @@
+{
+  "total_customers": 10000,
+  "churn_count": 2000,
+  "churn_rate": 0.2,
+  "feature_stats": {
+    "Age": {
+      "mean": 49.3044,
+      "median": 49.0,
+      "std": 18.189349242966014,
+      "min": 18.0,
+      "max": 80.0
+    },
+    "Tenure": {
+      "mean": 36.8417,
+      "median": 37.0,
+      "std": 21.204853352253327,
+      "min": -5.0,
+      "max": 72.0
+    },
+    "CreditScore": {
+      "mean": 576.9915,
+      "median": 578.0,
+      "std": 159.23508096161123,
+      "min": 300.0,
+      "max": 850.0
+    },
+    "Balance": {
+      "mean": 50.05856879360684,
+      "median": 35.391611257508806,
+      "std": 47.90412159324867,
+      "min": 0.0010259085695605663,
+      "max": 250.0
+    },
+    "MonthlyCharges": {
+      "mean": 627.1566318918232,
+      "median": 522.5280106394725,
+      "std": 444.0273749789743,
+      "min": 50.0,
+      "max": 2854.9121877764373
+    },
+    "Country": {
+      "France": 5012,
+      "Germany": 3042,
+      "Spain": 1946
+    },
+    "Gender": {
+      "Male": 5430,
+      "Female": 4570
+    },
+    "CustomerType": {
+      "Regular": 7054,
+      "Premium": 2946
+    }
+  }
+}
