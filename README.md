@@ -109,12 +109,10 @@ The Random Forest model demonstrates superior recall for identifying at-risk cus
 
 ```bash
 # Install Node dependencies
-pnpm install
+npm install
 
-# Install Python dependencies
-cd backend
-pip install -r requirements.txt
-```
+#run
+npm run dev
 
 ### Data Generation & Model Training
 
